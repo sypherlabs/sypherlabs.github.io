@@ -1,0 +1,20 @@
+.form-inline{
+	padding:5px;
+	border-radius:5px;
+	width:100%;
+	background-color:#819FF7;
+	color:white;
+}
+.form-group{
+	padding:20px;
+}
+.btn{
+	border-radius:5px;
+	background-color:#0000FF;
+	border-color:#0000FF;
+	color: white;
+}
+.btn:hover{
+	background-color:#00FFFF;
+	border-color:#00FFFF;
+}
