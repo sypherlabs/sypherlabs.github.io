@@ -394,6 +394,12 @@ img#versadrive{
 	display: inline-block;
 	padding-bottom: 10px;
 }
+.inner{
+	text-align: right;
+}
+.inner1{
+	text-align: left;
+}
 .inner p{
 	font-size: 23px;
 }
@@ -912,6 +918,9 @@ Parallax
 	.boxed-red {
 		margin-bottom: 30px;
 	}
+	.inner, .inner1{
+		text-align: center;
+	}
 
 	
 }
@@ -927,9 +936,6 @@ Parallax
 	}
 	#dispatch{
 		padding-top: 90px;
-	}
-	.img-responsive{
-		max-width: 120%;
 	}
 	h1{
 		font-size: 30px;
