@@ -23,7 +23,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -346,7 +345,6 @@ hr {
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
-	text-transform: uppercase;
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
@@ -395,6 +393,9 @@ hr {
 img#versadrive{
 	display: inline-block;
 	padding-bottom: 10px;
+}
+.inner font{
+	font-size: 20px;
 }
 .boxed-blue {
 	background: #FFFFFF;
@@ -851,6 +852,12 @@ Parallax
 		height: auto;
 		width:90%
 	}
+	.inner font{
+		font-size: 14px;
+	}
+	#dispatch{
+		padding-top: 150px;
+	}
 	h1{
 		font-size: 16px;
 	}
@@ -873,6 +880,12 @@ Parallax
 		height: auto;
 		width:90%
 	}
+	.inner font{
+		font-size: 15px;
+	}
+	#dispatch{
+		padding-top: 100px;
+	}
 	h1{
 		font-size: 17px;
 	}
@@ -887,6 +900,51 @@ Parallax
 	}
 	h5{
 		font-size: 14px;
+	}	
+}
+
+@media (max-width:768px) {
+	
+	.team.boxed-red {
+		margin-bottom: 30px;
+	}
+	
+	.boxed-red {
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 736px) {
+	.versafleet{
+		height: auto;
+		width:90%
+	}
+	.inner p{
+		font-size: 23px;
+	}
+	#dispatch{
+		padding-top: 90px;
+	}
+	.img-responsive{
+		max-width: 120%;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 18px;
+	}
+	h5{
+		font-size: 15px;
 	}	
 }
 
