@@ -5,7 +5,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Lato',sans-serif;
+    font-family: Istok Web,sans-serif;
 	font-weight: 300;
     color: #666;
     background-color: #fff;
@@ -23,7 +23,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    text-transform: uppercase;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -31,7 +30,7 @@ h6 {
 
 p {
     margin: 0 0 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.6em;
 }
 
@@ -44,6 +43,11 @@ a {
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
+}
+
+img.versafleet {
+	background-color: rgba(256, 256, 256, 0.5);
+	padding: 5px;
 }
 
 a:hover,
@@ -59,7 +63,7 @@ a:focus {
 .navbar {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
-	
+	width: 100vw;
 }
 
 .navbar-brand {
@@ -70,6 +74,7 @@ a:focus {
   padding: 5px 15px;
   font-size: 18px;
   line-height: 1em;
+  padding-top: 0px;
 }
 
 .navbar-brand h1{
@@ -334,13 +339,12 @@ hr {
 .intro .slogan h2 {
 	color: #FFF;
 	text-shadow: none;
-	font-size: 60px;
+	font-size: 40px;
 	line-height: 60px;
 	font-weight: 700;
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
-	text-transform: uppercase;
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
@@ -352,11 +356,8 @@ hr {
 	text-shadow: -1px 1px 1px #000;
 }
 
-#button-box{
-		text-align: center;
-	}
 	.button {
-		width:30%;
+		width:auto;
 		background: #00ff26;     
 		background: -webkit-gradient(linear, left top, left bottom, from(#00f034), to(#00ff26));
 		background: -webkit-linear-gradient(top, #00f034, #00ff26);     
@@ -366,11 +367,9 @@ hr {
 		padding: 10px 40px;     
 		-webkit-border-radius: 11px;     
 		-moz-border-radius: 11px;     
-		border-radius: 11px;     
-		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;     
-		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;        
-		text-shadow: rgba(0,0,0,.4) 0 1px 0;     
-		color: white;     font-size: 24px;     
+		border-radius: 11px;        
+		color: white;     
+		font-size: 24px;     
 		font-family: Georgia, serif;     
 		text-decoration: none;     
 		vertical-align: middle;
@@ -391,6 +390,13 @@ hr {
 --- About
 ============================ */
 
+img#versadrive{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.inner p{
+	font-size: 23px;
+}
 .boxed-blue {
 	background: #FFFFFF;
 	border: 3px solid;
@@ -841,10 +847,44 @@ Parallax
 
 }
 
+@media screen and (max-width: 320px) {
+	.versafleet{
+		height: auto;
+		width:90%
+	}
+	.inner font{
+		font-size: 14px;
+	}
+	#dispatch{
+		padding-top: 150px;
+	}
+	h1{
+		font-size: 16px;
+	}
+	h2{
+		font-size: 16px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	h5{
+		font-size: 13px;
+	}	
+}
+
 @media screen and (max-width: 568px) {
 	.versafleet{
 		height: auto;
 		width:90%
+	}
+	.inner font{
+		font-size: 15px;
+	}
+	#dispatch{
+		padding-top: 100px;
 	}
 	h1{
 		font-size: 17px;
@@ -860,6 +900,51 @@ Parallax
 	}
 	h5{
 		font-size: 14px;
+	}	
+}
+
+@media (max-width:768px) {
+	
+	.team.boxed-red {
+		margin-bottom: 30px;
+	}
+	
+	.boxed-red {
+		margin-bottom: 30px;
+	}
+
+	
+}
+
+
+@media screen and (max-width: 736px) {
+	.versafleet{
+		height: auto;
+		width:90%
+	}
+	.inner p{
+		font-size: 23px;
+	}
+	#dispatch{
+		padding-top: 90px;
+	}
+	.img-responsive{
+		max-width: 120%;
+	}
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	h3{
+		font-size: 30px;
+	}
+	h4{
+		font-size: 18px;
+	}
+	h5{
+		font-size: 15px;
 	}	
 }
 
@@ -902,7 +987,7 @@ Parallax
 	
 }
 
-@media (max-width:767px) {
+@media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
     background-color: rgba(255,255,255,.4);
