@@ -113,7 +113,7 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu {
 	border-radius: 0;
-	background-color: #5882FA;
+	background-color: rgba(256, 256, 256, 0.5);
 	color:  /*#fff*/ black;
 }
 
