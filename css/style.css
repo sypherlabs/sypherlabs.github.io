@@ -87,6 +87,10 @@ a:focus {
 }
 
 .nav.navbar-nav {
+    background-color: rgba(256, 256, 256, 0.5);
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
 	border-radius: 10px;
 }
 
