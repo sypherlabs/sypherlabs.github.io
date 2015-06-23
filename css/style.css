@@ -168,6 +168,10 @@ a:focus {
     outline: 0;
 }
 
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+	background-color: rgba(256, 256, 256, 0.5);
+}
+
 
 /* loader */
 #preloader {
