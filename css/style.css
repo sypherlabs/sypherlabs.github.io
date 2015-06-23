@@ -100,7 +100,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 15px;
 	letter-spacing: 1px;
-    color: #fff;
+    color: /*#fff*/ black;
 	font-weight: 700;
 }
 
@@ -108,13 +108,13 @@ a:focus {
 	    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: /*#fff*/ black;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
 	border-radius: 0;
 	background-color: #5882FA;
-	color: #fff;
+	color:  /*#fff*/ black;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu li {
@@ -131,11 +131,11 @@ a:focus {
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
 	background: #fefefe;
-	color: #fff;
+	color:  /*#fff*/ black;
 }
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
-	color: #666;
+	color:  /*#fff*/ black;
 }
 
 .navbar-custom .nav li a {
@@ -160,7 +160,7 @@ a:focus {
 .navbar-toggle {
     padding: 4px 6px;
     font-size: 14px;
-    color: #fff;
+    color:  /*#fff*/ black;
 }
 
 .navbar-toggle:focus,
