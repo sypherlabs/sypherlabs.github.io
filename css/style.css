@@ -88,7 +88,7 @@ a:focus {
 }
 
 .nav.navbar-nav {
-    background-color: #5882FA;
+    background-color: rgba(256, 256, 256, 0.5);
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
