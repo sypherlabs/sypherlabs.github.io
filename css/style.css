@@ -401,18 +401,18 @@ hr {
 /* ===========================
 --- About
 ============================ */
-.inner h1, .inner1 h1{
+.inner h1, .inner1 h1, .inner2 h1{
 	text-align: center;
 }
-.inner, .inner1{
+.inner, .inner1, .inner2{
 	text-align: justify;
 }
 .inner1{
 	margin: 50px;
 }
 .inner2{
-	margin: 40px;
-	padding-top: 20px;
+	margin: 50px;
+	padding-top: 10px;
 }
 .boxed-blue {
 	background: #FFFFFF;
