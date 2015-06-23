@@ -822,7 +822,7 @@ Parallax
     .top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background:#5882FA;
+		background: rgba(256, 256, 256, 0.5);
     }
 
     .navbar-custom.top-nav-collapse {
