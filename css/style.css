@@ -32,7 +32,6 @@ p {
     margin: 0 0 20px;
     font-size: 18px;
     line-height: 1.6em;
-	text-align: justify;
 }
 
 p.lead {
@@ -410,13 +409,14 @@ hr {
 .inner h1, .inner1 h1, .inner2 h1{
 	text-align: center;
 }
-
 .inner1{
 	margin: 50px;
+	text-align: justify;
 }
 .inner2{
 	margin: 50px;
 	padding-top: 10px;
+	text-align: justify;
 }
 .boxed-blue {
 	background: #FFFFFF;
