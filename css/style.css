@@ -827,7 +827,7 @@ Parallax
     .top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }
 
     .navbar-custom.top-nav-collapse {
@@ -885,7 +885,7 @@ Parallax
 	.top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -918,7 +918,7 @@ Parallax
 	.top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }
 }
 
@@ -937,7 +937,7 @@ Parallax
 	.top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }
 
 }
@@ -971,7 +971,7 @@ Parallax
 	.top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }	
 }
 
@@ -1017,7 +1017,7 @@ Parallax
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgba(255,255,255,.4);
+    background-color: rgba(255,255,255,0.4);
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
@@ -1040,7 +1040,7 @@ Parallax
 	.top-nav-collapse {
         padding: 0;
         background-color: #000;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(0, 0, 0, 0.7);
     }
 	
 }
