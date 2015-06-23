@@ -92,7 +92,7 @@ a:focus {
 }
 
 .navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: #5882FA;
+    background-color: rgba(256, 256, 256, 0.5);
 }
 
 
@@ -826,7 +826,7 @@ Parallax
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid #5882FA;
+        /*border-bottom: 1px solid #5882FA;*/
     }
 	
     .intro {
