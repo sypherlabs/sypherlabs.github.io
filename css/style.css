@@ -156,12 +156,17 @@ a:focus {
 }
 
 .navbar-custom .nav li.active {
+	background-color: #fff;
+
+}
+
+.navbar-custom .nav li.important {
 	outline: 0;
-	background-color: rgba(255,255,255,.5);
+	background-color: #fff;
 	border: solid 2px #5858FA;
 }
 
-.navbar-custom .nav li.active a{
+.navbar-custom .nav li.important  a{
 	color: #5858FA;
 }
 
