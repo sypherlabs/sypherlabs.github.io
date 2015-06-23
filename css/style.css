@@ -163,7 +163,7 @@ a:focus {
 .navbar-custom .nav li.dropdown,
 .navbar-custom .nav li.others {
 	outline: 0;
-	border: solid 2px;
+	border: 2px;
 	border-radius: 10px;	
 }
 
