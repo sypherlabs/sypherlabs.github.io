@@ -91,13 +91,12 @@ a:focus {
 	border-radius: 10px;
 }
 
-
-
 .navbar-custom ul.nav li a {
 	font-size: 15px;
 	letter-spacing: 1px;
     color: /*#fff*/ black;
 	font-weight: 700;
+	background-color: transparent;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
@@ -144,8 +143,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-	color: #00FFFF;	
-	background-color: none;
+	background-color: transparent;
 }
 
 .navbar-custom .nav li.important {
@@ -161,7 +159,7 @@ a:focus {
 
 .navbar-custom .nav li.dropdown {
 	outline: 0;
-	background-color: none;
+	background-color: transparent;
 }
 
 .navbar-toggle {
