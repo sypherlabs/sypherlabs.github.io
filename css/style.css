@@ -323,7 +323,6 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
 	background: url(../img/bg1.jpg) no-repeat top center;
 }
 
@@ -397,9 +396,9 @@ hr {
 		background: #00FFFF;
 	} 
 	.form-inline{
-	padding:5px;
-	border-radius:5px;
-	width:100%;
+	padding: 30px;
+	border-radius: 5px;
+	width: 100%;
     background-color: rgba(255,255,255,0.5);
 	color:white;
 	font-style: strong;
@@ -408,6 +407,18 @@ hr {
 	.form-group{
 		font-weight: bold;
 	}
+	.form-control{
+		height: 40px;
+		font-size: 20px;
+	}
+	.banner p{
+		padding: 10px;
+		color: #fff;
+		background-color: #5882FA;
+		text-align: center;
+		font-family: Montserrat, sans-serif;
+	}
+}
 
 /* ===========================
 --- About
@@ -443,6 +454,13 @@ hr {
 .boxed-white {
 	background: #FFFFFF;
 	padding: 20px;
+}
+
+.keywords{
+	color: #666;
+}
+.price{
+	padding: 10px;
 }
 
 .team h5 {
@@ -527,6 +545,8 @@ hr {
 	background-color:#0000FF;
 	border-color:#0000FF;
 	color: white;
+	height: 40px;
+	font-size: 20px;
 }
 .btn-primary:hover{
 	background-color:#00FFFF;
@@ -835,10 +855,6 @@ Parallax
         background-color: #000;
 		background: rgba(256, 256, 256, 0.5);
     }
-
-    .navbar-custom.top-nav-collapse {
-        /*border-bottom: 1px solid #5882FA;*/
-    }
 	
     .intro {
         height: 100%;
@@ -900,6 +916,9 @@ Parallax
         background-color: #000;
 		background: rgba(256, 256, 256, 0.5);
     }
+	.form-inline{
+		padding: 5px;
+	}
 }
 
 @media screen and (max-width: 568px) {
@@ -933,6 +952,9 @@ Parallax
         background-color: #000;
 		background: rgba(256, 256, 256, 0.5);
     }
+	.form-inline{
+		padding: 5px;
+	}
 }
 
 @media (max-width:768px) {
