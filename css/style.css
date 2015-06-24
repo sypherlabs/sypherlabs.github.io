@@ -411,6 +411,9 @@ hr {
 		height: 40px;
 		font-size: 20px;
 	}
+	#crmWebToEntityForm{
+		padding: 0px;
+	}
 	.banner p{
 		padding: 10px;
 		color: #fff;
