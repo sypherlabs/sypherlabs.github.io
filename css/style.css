@@ -160,11 +160,11 @@ a:focus {
 	outline: 0;
 	background-color: #fff;
 	border: solid 2px #5858FA;
+	border-radius: 10px;
 }
 
 .navbar-custom .nav li.important  a{
 	color: #5858FA;
-	border-radius: 10px;
 }
 
 .navbar-custom .nav li.dropdown,
