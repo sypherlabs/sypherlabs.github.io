@@ -426,17 +426,21 @@ hr {
 /* ===========================
 --- About
 ============================ */
-.inner h1, .inner1 h1, .inner2 h1{
+.inner h1, 
+.inner1 h1, 
+.inner2 h1{
 	text-align: center;
 }
-.inner1{
+.inner1 p, .inner2 p{
 	margin: 50px;
 	text-align: justify;
 }
 .inner2{
 	margin: 50px;
 	padding-top: 10px;
-	text-align: justify;
+}
+.img-responsive{
+	display: inline;
 }
 .boxed-blue {
 	background: #FFFFFF;
