@@ -147,7 +147,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: #A4A4A4;	
+	color: #A4A4A4;	
 }
 
 .navbar-custom .nav li.important {
