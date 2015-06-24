@@ -53,7 +53,7 @@ img.versafleet {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #0040FF;
+    color: #0040FF!important;
 }
 
 .light {
@@ -91,9 +91,6 @@ a:focus {
 	border-radius: 10px;
 }
 
-.navbar-custom.top-nav-collapse .nav.navbar-nav {
-    background-color: rgba(256, 256, 256, 0.5);
-}
 
 
 .navbar-custom ul.nav li a {
@@ -147,7 +144,8 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-	color: #A4A4A4;	
+	color: #00FFFF;	
+	background-color: none;
 }
 
 .navbar-custom .nav li.important {
@@ -161,11 +159,9 @@ a:focus {
 	color: #5858FA;
 }
 
-.navbar-custom .nav li.dropdown,
-.navbar-custom .nav li.others {
+.navbar-custom .nav li.dropdown {
 	outline: 0;
-	border: 2px;
-	border-radius: 10px;	
+	background-color: none;
 }
 
 .navbar-toggle {
@@ -179,11 +175,12 @@ a:focus {
     outline: 0;
 }
 
-.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
-	background-color: rgba(256, 256, 256, 0.5);
-}
 .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
 	background-color: rgba(256, 256, 256, 0.5);
+}
+
+.navbar-custom .nav li a:hover{
+	background-color: transparent;
 }
 
 /* loader */
