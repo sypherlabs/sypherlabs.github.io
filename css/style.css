@@ -433,7 +433,9 @@ hr {
 /* ===========================
 --- About
 ============================ */
-
+.inner p{
+	font-size: 23px;
+}
 .inner h1, 
 .inner1 h1, 
 .inner2 h1{
@@ -451,6 +453,37 @@ hr {
 	display: inline;
 }
 
+.tooltip {
+	outline:none; 
+	opacity: 1;
+	position: relative;
+}
+.tooltip strong {line-height:30px;}
+.tooltip:hover {text-decoration:none;} 
+.tooltip span {
+    z-index:10;display:none; padding:10px 20px; margin-left:-30%;
+    width:380px; line-height:16px;
+	text-align: justify;
+}
+.tooltip:hover span{
+    display:inline; position:absolute; 
+	top: 10%;
+    border:2px solid #FFF;  color:#EEE;
+    background:#333 url(cssttp/css-tooltip-gradient-bg.png) repeat-x 0 0;
+}
+.callout {z-index:20;position:absolute;border:0;top:-14px;left:120px;}
+    
+/*CSS3 extras*/
+.tooltip span
+{
+    border-radius:2px;        
+    box-shadow: 0px 0px 8px 4px #666;
+    /*opacity: 0.8;*/
+	font-size: 2px;
+}
+.mail{
+	color: #fff!important;
+}
 .boxed-blue {
 	background: #FFFFFF;
 	border: 3px solid;
@@ -1020,9 +1053,6 @@ Parallax
 		height: auto;
 		width:90%
 	}
-	.inner p{
-		font-size: 23px;
-	}
 	#dispatch{
 		padding-top: 90px;
 	}
@@ -1119,5 +1149,9 @@ Parallax
         padding: 0;
         background-color: #fff;
     }
-	
+	.tooltip span {
+		z-index:10;display:none; padding:10px 20px; margin-left:-50%;
+		width:100%; line-height:16px;
+		text-align: justify;
+	}
 }
