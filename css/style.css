@@ -954,7 +954,7 @@ Parallax
 	h1{
 		font-size: 16px;
 	}
-	h2{
+	h2, .banner p{
 		font-size: 16px;
 	}
 	h3{
@@ -999,7 +999,7 @@ Parallax
 	h1{
 		font-size: 17px;
 	}
-	h2{
+	h2, .banner p{
 		font-size: 17px;
 	}
 	h3{
@@ -1060,7 +1060,7 @@ Parallax
 	h1{
 		font-size: 30px;
 	}
-	h2{
+	h2, .banner p{
 		font-size: 20px;
 	}
 	h3{
