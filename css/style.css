@@ -449,7 +449,7 @@ hr {
 	text-align: justify;
 }
 .inner2{
-	margin: 50px;
+	margin-top: 25px;
 }
 .img-responsive{
 	display: inline;
@@ -504,7 +504,6 @@ hr {
 
 .boxed-white {
 	background: #FFFFFF;
-	padding: 20px;
 }
 .popup {
         position:absolute;
