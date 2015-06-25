@@ -64,6 +64,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255, 0.5);
 	width: 100vw;
+	background-color: #fff;
 }
 
 .navbar-brand {
@@ -173,14 +174,13 @@ a:focus {
     outline: 0;
 }
 
-.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse{
-	background-color: rgba(256, 256, 256, 0.5);
-}
-
 .navbar-custom .nav li a:hover{
 	background-color: transparent;
 }
 
+.container{
+	background-color: #fff;
+}
 /* loader */
 #preloader {
     background: #ffffff;
@@ -855,19 +855,18 @@ Parallax
 @media(min-width:768px) {
 
     .navbar {
-        padding: 20px 0;
         border-bottom: 0;
         letter-spacing: 1px;
         background: 0 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+		background-color: #fff;
     }
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #000;
-		background: rgba(256, 256, 256, 0.5);
+        background-color: #fff;
     }
 	
     .intro {
@@ -933,6 +932,15 @@ Parallax
 	.form-inline{
 		padding: 5px;
 	}
+	.navbar {
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+		background-color: #fff;
+    }
 }
 
 @media screen and (max-width: 568px) {
@@ -969,6 +977,15 @@ Parallax
 	.form-inline{
 		padding: 5px;
 	}
+	.navbar {
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+		background-color: #fff;
+    }
 }
 
 @media (max-width:768px) {
@@ -985,8 +1002,7 @@ Parallax
 	}
 	.top-nav-collapse {
         padding: 0;
-        background-color: #000;
-		background: rgba(256, 256, 256, 0.5));
+        background-color: #fff;
     }
 
 }
@@ -1087,8 +1103,7 @@ Parallax
 	}
 	.top-nav-collapse {
         padding: 0;
-        background-color: #000;
-		background: rgba(256, 256, 256, 0.5);
+        background-color: #fff;
     }
 	
 }
