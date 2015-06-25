@@ -912,7 +912,7 @@ Parallax
     }
 	
     .intro {
-        height: 100%;
+        height: auto;
         padding: 0;
     }
 
