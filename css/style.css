@@ -335,6 +335,7 @@ hr {
 
 #intro.intro {
 	padding:18% 0 0 0;
+	background-color: #5882FA;
 }
 
 .intro .slogan {
@@ -442,13 +443,15 @@ hr {
 .inner2 h1{
 	text-align: center;
 }
+.inner1{
+	margin-top: 40px;
+}
 .inner1 p, .inner2 p{
 	margin: 50px;
 	text-align: justify;
 }
 .inner2{
 	margin: 50px;
-	padding-top: 10px;
 }
 .img-responsive{
 	display: inline;
