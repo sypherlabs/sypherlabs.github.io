@@ -92,12 +92,21 @@ a:focus {
 	border-radius: 10px;
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	padding-left: 100px;
+}
+
+.navbar-nav{
+	padding-right: 100px;
+}
+
 .navbar-custom ul.nav li a {
-	font-size: 15px;
+	font-size: 18px;
 	letter-spacing: 1px;
     color: /*#fff*/ black;
 	font-weight: 700;
 	background-color: transparent;
+	padding-right: 50px;
 }
 
 .navbar-custom.top-nav-collapse ul.nav li a {
@@ -156,6 +165,7 @@ a:focus {
 
 .navbar-custom .nav li.important  a{
 	color: #5858FA!important;
+	padding-right: 15px!important;
 }
 
 .navbar-custom .nav li.dropdown {
@@ -423,6 +433,7 @@ hr {
 /* ===========================
 --- About
 ============================ */
+
 .inner h1, 
 .inner1 h1, 
 .inner2 h1{
@@ -1035,6 +1046,12 @@ Parallax
         background-color: #000;
 		background: rgba(256, 256, 256, 0.5);
     }	
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+		padding-left: 28%;
+	}
+	.navbar-brand{
+		height: 40px;
+	}
 }
 
 @media (max-width:768px) {
