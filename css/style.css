@@ -159,12 +159,12 @@ a:focus {
 .navbar-custom .nav li.important {
 	outline: 0;
 	background-color: #fff;
-	border: solid 2px #5858FA;
+	border: solid 2px #0080FF;
 	border-radius: 10px;
 }
 
 .navbar-custom .nav li.important  a{
-	color: #5858FA!important;
+	color: #0080FF!important;
 	padding-right: 15px!important;
 }
 
