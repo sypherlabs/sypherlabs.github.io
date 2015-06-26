@@ -1155,4 +1155,8 @@ Parallax
 		width:100%; line-height:16px;
 		text-align: justify;
 	}
+	.navbar-collapse.in{
+		overflow-y: visible;
+	}
+
 }
