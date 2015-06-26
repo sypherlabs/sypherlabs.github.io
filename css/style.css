@@ -293,6 +293,7 @@ hr {
 
 .section-heading h2 {
 	font-size: 40px;
+	padding-top: 40px;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -1079,9 +1080,9 @@ Parallax
         background-color: #000;
 		background: rgba(256, 256, 256, 0.5);
     }	
-	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	/*.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
 		padding-left: 28%;
-	}
+	}*/
 	.navbar-brand{
 		height: 40px;
 	}
@@ -1157,8 +1158,8 @@ Parallax
 		width:100%; line-height:16px;
 		text-align: justify;
 	}
-	.navbar-collapse.in{
+	/*.navbar-collapse.in{
 		overflow-y: visible;
-	}
+	}*/
 
 }
