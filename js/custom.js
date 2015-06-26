@@ -34,5 +34,8 @@
 			event.preventDefault();
 		});
 	});
+	$('.dropdown').on('click', function(){
+     window.location = "#about";    
+});
 
 })(jQuery);
