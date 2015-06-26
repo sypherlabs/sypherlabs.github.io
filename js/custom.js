@@ -35,7 +35,7 @@
 		});
 	});
 	$('.dropdown').on('click', function(){
-     window.location = "#about";    
+     window.location = "index.html#about";    
 });
 
 })(jQuery);
